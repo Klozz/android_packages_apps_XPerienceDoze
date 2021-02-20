@@ -2,6 +2,7 @@
  * Copyright (C) 2015 The CyanogenMod Project
  *               2017-2019 The LineageOS Project
  *               2020 Paranoid Android
+ *               2021 The XPerience project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,7 +17,7 @@
  * limitations under the License.
  */
 
-package co.aospa.doze;
+package mx.xperience.doze;
 
 import android.content.Context;
 import android.content.Intent;

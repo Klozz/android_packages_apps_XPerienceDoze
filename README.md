@@ -1,9 +1,9 @@
-# Setting up Paranoid Doze
-To build Paranoid Doze you have to build the package in your device tree.
+# Setting up XPerienceDoze
+To build XPerienceDoze you have to build the package in your device tree.
 ```bash
-    # Paranoid Doze
+    # XPerienceDoze
     PRODUCT_PACKAGES += \
-        ParanoidDoze
+        XPerienceDoze
 ```
 In order to have the proper options showing up you have to define the device related sensors in your build properties
 
