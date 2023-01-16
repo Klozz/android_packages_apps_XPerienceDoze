@@ -46,6 +46,7 @@ public class PickupSensor implements SensorEventListener {
     private SensorManager mSensorManager;
     private Sensor mSensor;
     private String mSensorName;
+    private int mSensorValue;
     private Context mContext;
     private ExecutorService mExecutorService;
     private PowerManager mPowerManager;
@@ -57,6 +58,7 @@ public class PickupSensor implements SensorEventListener {
         mContext = context;
         mSensorManager = mContext.getSystemService(SensorManager.class);
         mSensorName = SystemProperties.get("ro.sensor.pickup");
+        mSensorValue = SystemProperties.getInt("ro.sensor.pickup.value", 1);
         mSensor = DozeUtils.getSensor(mSensorManager, mSensorName);
         mPowerManager = (PowerManager) mContext.getSystemService(Context.POWER_SERVICE);
         mWakeLock = mPowerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, TAG);
@@ -80,7 +82,7 @@ public class PickupSensor implements SensorEventListener {
 
         mEntryTimestamp = SystemClock.elapsedRealtime();
 
-        if (event.values[0] == 1) {
+        if (event.values[0] == mSensorValue) {
             if (isRaiseToWake) {
                 mWakeLock.acquire(WAKELOCK_TIMEOUT_MS);
                 mPowerManager.wakeUp(SystemClock.uptimeMillis(),
