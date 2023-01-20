@@ -44,7 +44,7 @@
         </receiver>
 
         <service android:name=".DozeService"
-                 android:permission="XiaomiDozeService">
+                 android:permission="XPerienceDozeService">
         </service>
 
         <activity
