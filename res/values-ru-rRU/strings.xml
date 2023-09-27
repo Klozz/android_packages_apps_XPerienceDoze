@@ -19,14 +19,33 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
     <!-- App Name -->
+    <string name="doze_settings_app_name">Настройки режима ожидания</string>
     <!-- Ambient Display -->
+    <string name="ambient_display_enable">Использование дисплея окружающей среды</string>
+    <string name="ambient_display_title">Отображение окружающей среды</string>
+    <string name="ambient_display_summary">Дополнительные жесты для пробуждения экрана</string>
     <!-- Always on -->
+    <string name="ambient_display_always_on_title">Всегда включено</string>
+    <string name="ambient_display_always_on_summary">Отображение времени, значков уведомлений и другой информации. Повышенный расход батареи.</string>
     <!-- Pickup sensor -->
+    <string name="pickup_sensor_title">Датчик подбора</string>
     <!-- Proximity sensor -->
+    <string name="proximity_sensor_title">Датчик приближения</string>
     <!-- Hand wave gesture -->
+    <string name="hand_wave_gesture_title">Мах рукой</string>
+    <string name="hand_wave_gesture_summary">Импульсные уведомления на волне руки</string>
     <!-- Pick-up gesture -->
+    <string name="pick_up_gesture_title">Подбор</string>
+    <string name="pick_up_gesture_summary">Импульсные уведомления при получении</string>
     <!-- Pick-up to wake gesture-->
+    <string name="wake_gesture_title">Пробудить</string>
+    <string name="wake_gesture_summary">Пробуждение устройства вместо пульсирующих уведомлений</string>
     <!-- Pocket gesture -->
+    <string name="pocket_gesture_title">Карман</string>
+    <string name="pocket_gesture_summary">Импульсные уведомления при извлечении из кармана</string>
     <!-- Dialog texts -->
+    <string name="dialog_ok">ОК</string>
     <!-- Help texts -->
+    <string name="doze_settings_help_title">Помощь</string>
+    <string name="doze_settings_help_text">Эти функции используют события от датчиков для запуска импульса уведомления о дремоте. Выбранный датчик включается только тогда, когда устройство получает уведомление, что позволяет снизить расход батареи. Также есть возможность включить выбранный датчик сразу после выключения экрана, что приведет к увеличению расхода батареи.</string>
 </resources>
