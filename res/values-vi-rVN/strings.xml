@@ -19,14 +19,33 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
     <!-- App Name -->
+    <string name="doze_settings_app_name">Cài đặt Doze</string>
     <!-- Ambient Display -->
+    <string name="ambient_display_enable">Sử dụng màn hình luôn bật</string>
+    <string name="ambient_display_title">Màn hình xem nhanh (AOD)</string>
+    <string name="ambient_display_summary">Các cử chỉ bổ sung để đánh thức màn hình</string>
     <!-- Always on -->
+    <string name="ambient_display_always_on_title">Luôn bật</string>
+    <string name="ambient_display_always_on_summary">Hiển thị thời gian, biểu tượng thông báo và các thông tin khác. Tăng mức sử dụng pin.</string>
     <!-- Pickup sensor -->
+    <string name="pickup_sensor_title">Cảm biến nhấc lên</string>
     <!-- Proximity sensor -->
+    <string name="proximity_sensor_title">Cảm biến tiệm cận</string>
     <!-- Hand wave gesture -->
+    <string name="hand_wave_gesture_title">Vẫy tay</string>
+    <string name="hand_wave_gesture_summary">Kích hoạt thông báo khi vẫy tay</string>
     <!-- Pick-up gesture -->
+    <string name="pick_up_gesture_title">Nhấc lên</string>
+    <string name="pick_up_gesture_summary">Kích hoạt thông báo khi nhấc lên</string>
     <!-- Pick-up to wake gesture-->
+    <string name="wake_gesture_title">Đánh thức thiết bị</string>
+    <string name="wake_gesture_summary">Đánh thức thiết bị thay vì thông báo rung</string>
     <!-- Pocket gesture -->
+    <string name="pocket_gesture_title">Bỏ túi</string>
+    <string name="pocket_gesture_summary">Kích hoạt thông báo khi lấy ra khỏi túi</string>
     <!-- Dialog texts -->
+    <string name="dialog_ok">Đồng Ý</string>
     <!-- Help texts -->
+    <string name="doze_settings_help_title">Trợ giúp</string>
+    <string name="doze_settings_help_text">Các tính năng này sử dụng các sự kiện cảm biến để khởi chạy kích hoạt một thông báo doze. Các cảm biến được chọn chỉ được kích hoạt khi thiết bị nhận một thông báo, điều này giúp giảm thiểu việc sử dụng pin. Ngoài ra còn có một tùy chọn để kích hoạt các cảm biến được chọn ngay khi màn hình tắt, điều này sẽ gây ra việc sử dụng pin cao hơn.</string>
 </resources>
